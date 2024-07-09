@@ -1,0 +1,36 @@
+{
+  "name": "shop-co",
+  "version": "1.0.0",
+  "description": "EPAM EHU WebDev JS/TS Task",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src",
+    "prettier": "prettier . --write",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "prettier": "3.1.0",
+    "sass": "^1.77.6",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier . --write --ignore-unknown"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "navigo": "^8.11.1"
+  }
+}
